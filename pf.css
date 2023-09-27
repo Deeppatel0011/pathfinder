@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(230, 220, 211);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inf {
+    cursor: default;
+    width: 70px;
+    height: 42px;
+}
+.row1 {
+    display: flex;
+}
+.col2 {
+    margin-left: 20px;
+}
+#info {
+    position: absolute;
+    margin: 0 0 0 35px;
+}
+.label-info {
+    background: #9bb6ae;
+}
+.label-warning {
+    background: #e0bf00;
+}
+.grid {
+    margin: 30px 0 0 55px;
+    display: grid;
+}
+i {
+    margin-right: 5px;
+}
+.bttn {
+    padding: 0;
+    height: 38px;
+    border-radius: 5px;
+    margin: 30px 0 30px 20px;
+    border: none;
+    transition: all 0.6s;
+    box-shadow: 0px 2px 4px 1px rgba(65, 46, 46, 0.08);
+}
+.bttn:hover {
+    box-shadow: 1px 2px 4px 1px rgba(70, 70, 70, 0.42);
+}
+.b1 {
+    margin: 30px 0 0 55px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    height: 48px;
+    cursor: pointer;
+}
+
+.txt {
+    margin: 45px 0 20px 55px;
+}
+
+#show {
+    position: relative;
+    font-size: large;
+}
+
+#bottom, .html { display: flex; }
+#bottom { max-width: 600px; }
+.html {
+    position: relative;
+    top: -8px;
+    height: 20px;
+}
+
+.pm {
+    margin: 5px 0 0 7px;
+    padding: 2px 8px;
+    cursor: pointer;
+    height: 20px;
+    width: 25px;
+    border-radius: 10%;
+    border: none;
+    font-size: small;
+}
+
+select {
+    margin: 5px 0 0 8px;
+    height: 20px;
+    font-size: small;
+}
+
+#note {
+    margin: 40px;
+}
+
+.b1,
+.b2 {
+    font-size: 20px;
+    flex: 0 0 100px;
+}
+
+.b1 {
+    flex: 0 0 90px;
+}
+
+.version {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}
+
+@media only screen and (min-width: 430px) and (max-width: 787px) {
+    .grid {
+        margin: 85px 0 0 35px;
+    }
+    #info {
+        margin-left: 15px;
+        display: flex;
+        width: 430px;
+        top: 112px;
+    }
+    .row1 {
+        margin-left: 20px;
+    }
+    body {
+        background-color: lightblue;
+    }
+    button {
+        height: 43px;
+    }
+    .txt {
+        position: relative;
+        font-size: large;
+        margin-left: 35px;
+        top: -10px;
+    }
+    .b1 {
+        margin: 30px 0 0 35px;
+    }
+}
+
+@media only screen and (min-width: 50px) and (max-width: 430px) {
+    .html {
+        display: block;
+    }
+    .sizechng {
+        display: flex;
+    }
+    #info {
+        margin-left: 18px;
+        display: flex;
+        width: 430px;
+        top: 160px;
+    }
+    .grid {
+        margin: 85px 0 0 35px;
+        margin-top: 120px;
+    }
+    select {
+        margin: 5px 32px 5px 8px;
+        height: 35px;
+        padding-left: 12px;
+        width: 120px;
+        border-radius: 7px;
+        border: none;
+        outline: none;
+        font-size: medium;
+        background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #f1f1f1;
+        -webkit-appearance: none;
+        background-position-x: 92px;
+        box-shadow: 0px 2px 5px rgb(0 0 0 / 30%);
+    }
+    .col2 {
+        margin-left: 17px;
+    }
+    .pm {
+        height: 33px;
+        width: 42px;
+        border-radius: 7px;
+        margin: 7px 0 0 18px;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.623);
+        box-shadow: 0px 2px 5px rgb(0 0 0 / 30%);
+    }
+    .sizechng {
+        margin-left: -7px;
+    }
+    .b1,
+    .b2 {
+        font-size: 18px;
+    }
+    .row1 {
+        margin-left: 17px;
+    }
+    body {
+        background-color: lightblue;
+    }
+    button {
+        height: 43px;
+    }
+    .txt {
+        position: relative;
+        font-size: large;
+        margin-left: 35px;
+        top: -10px;
+    }
+    .b1 {
+        margin: 30px 0 0 35px;
+    }
+}
